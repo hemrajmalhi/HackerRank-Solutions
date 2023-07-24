@@ -4,7 +4,7 @@
 
 package HackerRank;
 import java.util.Scanner;
-public class Problem_4 {
+public class Pro_4 {
 
         public static void main(String[] args) {
             Scanner scan = new Scanner(System.in);
