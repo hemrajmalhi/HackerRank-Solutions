@@ -1,12 +1,31 @@
 package HackerRank;
 import java.util.Scanner;
 
+
+
 public class Pro_16 {
-        public static void main(String[] args) {
-            Scanner in = new Scanner(System.in);
-            String S = in.next();
-            int start = in.nextInt();
-            int end = in.nextInt();
-            System.out.println(S.substring(start,end));
+    public static String palindrome(String str) {
+        char ch;
+        String reverse = "";
+        for (int i = 0; i <str.length(); i++) {
+            ch = str.charAt(i);
+            reverse = ch + reverse;
         }
-    }
+        if (str.equals(reverse)) {
+            return "Yes";
+        } else {
+            return "NO";
+        }
+        }
+        public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+                String A=sc.next().toLowerCase();
+                String a =palindrome(A);
+            System.out.println(a);
+
+                }
+
+        }
+
+
+
