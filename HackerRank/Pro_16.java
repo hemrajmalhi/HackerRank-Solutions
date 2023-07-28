@@ -5,11 +5,10 @@ import java.util.Scanner;
 
 public class Pro_16 {
     public static String palindrome(String str) {
-        char ch;
         String reverse = "";
         for (int i = 0; i <str.length(); i++) {
-            ch = str.charAt(i);
-            reverse = ch + reverse;
+
+            reverse = str.charAt(i) + reverse;
         }
         if (str.equals(reverse)) {
             return "Yes";
@@ -21,7 +20,7 @@ public class Pro_16 {
             Scanner sc=new Scanner(System.in);
                 String A=sc.next().toLowerCase();
                 String a =palindrome(A);
-            System.out.println(a);
+                System.out.println(a);
 
                 }
 
