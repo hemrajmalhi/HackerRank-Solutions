@@ -5,4 +5,3 @@ public class Pro_26 {
         System.out.println("Hello world");
     }
 }
-git
