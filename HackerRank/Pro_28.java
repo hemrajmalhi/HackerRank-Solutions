@@ -18,7 +18,7 @@ class MyCalculator1 {
     }
 }
 
-public class Pro_java_28 {
+public class Pro_28 {
     public static final MyCalculator1 my_calculator = new MyCalculator1();
     public static final Scanner in = new Scanner(System.in);
 
